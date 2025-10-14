@@ -11,7 +11,7 @@ export default defineConfig({
   base: './',
   // 项目src
   root: resolve('src/renderer'),
-  build:{
+  build:{ outDir: 'webbuild',
     target:['edge90','chrome90','firefox90','safari15']
   },
   resolve: {
