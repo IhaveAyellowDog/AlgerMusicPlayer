@@ -13,7 +13,7 @@ export default defineConfig({
   root: resolve('src/renderer'),
   build:{
     target:['edge90','chrome90','firefox90','safari15']
-  }
+  },
   resolve: {
     alias: {
       '@': resolve('src/renderer'),
